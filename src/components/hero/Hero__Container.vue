@@ -15,7 +15,7 @@
 
     <hero--brand-logo></hero--brand-logo>
     <div class="hero--text-group">
-      <hero--header text="Soulmates git DJ"></hero--header>
+      <hero--header text="Soulmates DJ"></hero--header>
       <hero--sub-header text="Give the best night of your life, the perfect soundtrack to match!"></hero--sub-header>
     </div>
 
