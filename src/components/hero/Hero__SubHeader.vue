@@ -1,5 +1,5 @@
 <template>
-  <h3>{{ text }}</h3>
+  <h3 class="hero--sub-header">{{ text }}</h3>
 </template>
 
 <script>
