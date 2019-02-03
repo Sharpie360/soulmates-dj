@@ -10,6 +10,7 @@ import Hero__Container from '@/components/hero/Hero__Container.vue';
 
 export default {
   name: 'home',
+  props: ['clientWidth', 'clientHeight'],
   components: {
     'hero--container': Hero__Container
   },
