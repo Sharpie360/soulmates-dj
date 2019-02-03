@@ -10,19 +10,25 @@
       </linearGradient>
       </defs>
     </svg>
+    
     <div class="hero--text-group">
-      <h1 class="hero--header">Soulmates DJ</h1>
-      <h3 class="hero--sub-header">Give the best night of your life, the perfect soundtrack to match!</h3>
+      <hero--header text="Soulmates DJ"></hero--header>
+      <hero--sub-header text="Give the best night of your life, the perfect soundtrack to match!"></hero--sub-header>
     </div>
 
   </div>
 </template>
 
 <script>
+import Hero__Header from './Hero__Header';
+import Hero__SubHeader from './Hero__SubHeader';
 
 export default {
-  props: ['']
-  
+  props: [''],
+  components: {
+    'hero--header': Hero__Header,
+    'hero--sub-header': Hero__SubHeader,
+  }
 }
 </script>
 
@@ -40,12 +46,5 @@ export default {
   text-align: center;
   top: -18rem;
 }
-.hero--header {
-  font-family: 'Aclonica', sans-serif;
-  font-weight: normal;
-  font-size: 850%;
-}
-.hero--sub-header {
-  font-weight: 300;
-}
+
 </style>
