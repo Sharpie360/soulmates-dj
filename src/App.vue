@@ -1,46 +1,17 @@
 <template>
   <div id="app">
-    <div id="nav" class="flexbox">
-      <div class="navbar-brand flex-1 flexbox flex-align-center">Soulmates DJ</div>
-      <router-link class="flexbox flex-center" to="/">
-        <div class="navitem--inner">Home</div>
-      </router-link>
-      <router-link class="flexbox flex-center" to="/about">About</router-link>
-    </div>
-    <router-view :clientWidth="clientWidth" :clientHeight="clientHeight"/>
+    <app--navbar></app--navbar>
+    <router-view />
   </div>
 </template>
 
 <script>
-
+import Navbar_Container from './components/navbar/Navbar_Container';
 
 export default {
-  data () {
-    return {
-      clientWidth: 0,
-      clientHeight: 0,
-    }
-  },
-  mounted() {
-    this.$nextTick(() => {
-      window.addEventListener('resize', this.getClientWidth);
-      window.addEventListener('resize', this.getClientHeight);
-      this.getClientWidth();
-      this.getClientHeight();
-    })
-  },
-  methods: {
-    getClientWidth () {
-      this.clientWidth = document.documentElement.clientWidth;
-    },
-    getClientHeight () {
-      this.clientHeight = document.documentElement.clientHeight;
-    }
-  },
-  beforeDestroy() {
-    window.removeEventListener('resize', this.getClientWidth);
-    window.removeEventListener('resize', this.getClientHeight);
-  },
+  components: {
+    'app--navbar': Navbar_Container,
+  }
 }
 </script>
 
@@ -54,11 +25,6 @@ export default {
   color: #f7f7f7;
   background-color: var(--backgroundMain);
   height: 100%;
-}
-#nav {
-  position: relative;
-  z-index: 50;
-  height: 80px;
 }
 
 .navbar-brand {
