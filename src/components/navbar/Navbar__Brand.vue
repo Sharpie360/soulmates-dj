@@ -8,7 +8,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .navbar-brand {
   margin-left: 1rem;
 }

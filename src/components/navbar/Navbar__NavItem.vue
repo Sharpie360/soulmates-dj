@@ -10,14 +10,25 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
 .navitem--outer {
-  width: 8rem;
+  width: 7rem;
   color: #f7f7f7;
+  text-decoration: none;
+}
+.navitem--outer:hover > .navitem--inner {
+  border-bottom: 2px solid var(--fontColorMain);
 }
 
 .navitem--outer.router-link-exact-active {
-  color: #42b983;
+  color: #ffffff;
 }
+
+.navitem--inner {
+  padding: .5rem .25rem;
+  color: #ffffff;
+  font-weight: 300;
+  border-bottom: 2px solid transparent;
+}
+
 </style>
