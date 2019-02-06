@@ -21,3 +21,7 @@ html, body {
   color: #f7f7f7;
   background-color: var(--backgroundMain);
 }
+
+.pointer {
+  cursor: pointer;
+}
