@@ -1,5 +1,9 @@
 <template>
-  <div class="navbar-brand flex-1 flexbox flex-align-center">{{ brandText }}</div>
+<div class="navbar--brand--outer flex-1 flexbox flex-align-center">
+  <router-link to="/" tag="span" class="navbar-brand pointer">
+    {{ brandText }}
+  </router-link>
+</div>
 </template>
 
 <script>
