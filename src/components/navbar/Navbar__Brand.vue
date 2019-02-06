@@ -10,6 +10,8 @@ export default {
 
 <style scoped>
 .navbar-brand {
+  font-family: 'Aclonica', sans-serif;
+  font-size: 1.25rem;
   margin-left: 1rem;
 }
 </style>
