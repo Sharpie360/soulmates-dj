@@ -22,8 +22,7 @@ export default {
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #f7f7f7;
-  background-color: var(--backgroundMain);
+
   height: 100%;
 }
 
