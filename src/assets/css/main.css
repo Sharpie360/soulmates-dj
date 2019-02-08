@@ -2,9 +2,11 @@
 
 
 :root {
-  --backgroundMain: #2F2A2A;
-  --fontColorMain: #f7f7f7;
+  --offBlack: #2F2A2A;
+  --backgroundWhite: #FFF7F7;
+  --fontColorHeadings: #f7f7f7;
   --brightRed: #E81928;
+  --brightRed-dark: #cc0815;
 }
 
 
@@ -18,7 +20,7 @@ html, body {
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   height: 100vh;
-  color: #f7f7f7;
+  color: var(--offBlack);
   background-color: var(--backgroundMain);
 }
 

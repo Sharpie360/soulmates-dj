@@ -4,12 +4,6 @@
   </div>
 </template>
 
-<script>
-export default {
-
-}
-</script>
-
 <style scoped>
 .hero--brand-logo--outer {
   position: absolute;

@@ -17,6 +17,7 @@ export default {
   font-family: 'Aclonica', sans-serif;
   font-size: 1.25rem;
   margin-left: 1rem;
+  color: var(--fontColorHeadings);
 }
 </style>
 
