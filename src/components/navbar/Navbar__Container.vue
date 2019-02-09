@@ -22,6 +22,7 @@ export default {
 
 <style scoped>
 .navbar--outer {
+  background-color: var(--brightRed);
   position: relative;
   z-index: 50;
   height: 4rem;
