@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <app--navbar></app--navbar>
+    <app--navbar :currentRoute="currentRoute"></app--navbar>
     <router-view />
   </div>
 </template>
@@ -11,6 +11,11 @@ import Navbar__Container from './components/navbar/Navbar__Container';
 export default {
   components: {
     'app--navbar': Navbar__Container,
+  },
+  computed: {
+    currentRoute() {
+      return this.$route.name;
+    }
   }
 }
 </script>
