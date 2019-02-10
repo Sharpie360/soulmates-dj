@@ -1,5 +1,5 @@
 <template>
-  <router-link class="cta--outer cta--secondary flexbox-space-center" tag="button" 
+  <router-link class="cta--outer cta--secondary flexbox-space-center pointer" tag="button" 
   :to="to">
     <span class="cta--inner">{{ text }}</span>
   </router-link>

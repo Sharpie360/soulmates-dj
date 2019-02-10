@@ -1,5 +1,5 @@
 <template>
-  <router-link class="cta--outer cta--primary flexbox-space-center" tag="div" 
+  <router-link class="cta--outer cta--primary flexbox-space-center pointer" tag="button" 
   :to="to">
     <span class="cta--inner">{{ text }}</span>
   </router-link>
@@ -20,6 +20,7 @@ export default {
 }
 .cta--inner {
   text-align: center;
+  font-size: 190%;
 }
 .cta--primary {
   color: var(--fontColorHeadings);
