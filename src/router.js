@@ -24,5 +24,10 @@ export default new Router({
       name: 'services',
       component: () => import(/* webpackChunkName: "services" */'./views/Services.vue'),
     },
+    {
+      path: '/hire',
+      name: 'hire',
+      component: () => import(/* webpackChunkName: "hire" */'./views/Hire.vue'),
+    },
   ],
 });
