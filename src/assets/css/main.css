@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Aclonica|Open+Sans:300,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Aclonica|Advent+Pro:300,400,500,600');
 
 
 :root {
@@ -18,10 +18,11 @@
 
 html, body {
   font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Advent Pro', sans-serif;
   height: 100vh;
   color: var(--offBlack);
-  background-color: var(--backgroundMain);
+  background-color: var(--backgroundWhite);
+  overflow: hidden;
 }
 
 .pointer {

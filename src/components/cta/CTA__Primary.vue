@@ -16,11 +16,12 @@ export default {
   position: relative;
   z-index: 50;
   padding: .5rem 2rem;
-  border-radius: 25px;
+  border-radius: 50px;
 }
 .cta--inner {
   text-align: center;
-  font-size: 190%;
+  font-size: 200%;
+  font-family: 'Advent Pro', sans-serif;
 }
 .cta--primary {
   color: var(--fontColorHeadings);
@@ -32,4 +33,9 @@ export default {
 .cta--primary:hover, .cta--primary:active {
   background-color: var(--brightRed-dark);
 }
+.cta--primary:active {
+  background-color: var(--brightRed-dark);
+  border: 2px solid var(--brightRed);
+}
+
 </style>

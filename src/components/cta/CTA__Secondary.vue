@@ -16,11 +16,12 @@ export default {
   position: relative;
   z-index: 50;
   padding: .5rem 2rem;
-  border-radius: 25px;
+  border-radius: 50px;
 }
 .cta--inner {
   text-align: center;
-  font-size: 190%;
+  font-size: 200%;
+  font-family: 'Advent Pro', sans-serif;
 }
 .cta--secondary {
   background-color: transparent;
@@ -31,5 +32,9 @@ export default {
 }
 .cta--secondary:hover, .cta--secondary:active {
   background-color: rgb(253, 230, 230);
+}
+.cta--secondary:active {
+  background-color: rgb(253, 230, 230);
+  border: 2px solid var(--brightRed); 
 }
 </style>
