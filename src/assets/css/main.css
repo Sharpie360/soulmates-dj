@@ -4,9 +4,9 @@
 :root {
   --offBlack: #2F2A2A;
   --offWhite: #FFF7F7;
-  --hoverRed: rgb(255, 59, 72);
+  --hoverRed: #ff3b48;
   --brightRed: #E81928;
-  --brightestRed: rgb(255, 0, 17);
+  --brightestRed: #ff0011;
   --brightRed-dark: #cc0815;
   
   --fontSize: 26px;

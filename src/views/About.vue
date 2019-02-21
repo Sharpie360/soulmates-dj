@@ -32,7 +32,7 @@ export default {
 <style scoped>
 .about {
   position: relative;
-  height: 100%;
+  height: calc(100% - 4rem);
 }
 
 .svg--bg-slice svg {
