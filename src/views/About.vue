@@ -29,20 +29,10 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
 .about {
   position: relative;
   height: 100%;
-}
-
-
-.page-title {
-  grid-area: 1 / 2 / span 1 / span 1;
-  font-family: 'Aclonica';
-  font-size: 500%;
-  font-weight: 400;
-  padding: 1rem 1.5rem;
 }
 
 .svg--bg-slice svg {

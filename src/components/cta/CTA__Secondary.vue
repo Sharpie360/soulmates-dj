@@ -15,21 +15,23 @@ export default {
 .cta--outer {
   position: relative;
   z-index: 50;
-  padding: .5rem 2rem;
-  border-radius: 25px;
+  padding: .75rem 4rem;
+  border-radius: 50px;
 }
 .cta--inner {
   text-align: center;
-  font-size: 190%;
+  font-size: 1.8rem;
+  font-family: 'Anaheim';
 }
 .cta--secondary {
   background-color: transparent;
   border: 2px solid var(--offBlack);
   color: var(--brightRed);
   font-weight: 500;
-  transition: background-color .3s;
+  transition: background-color .3s, color .3s;
 }
 .cta--secondary:hover, .cta--secondary:active {
-  background-color: rgb(253, 230, 230);
+  color: var(--offBlack);
+  background-color: var(--hoverRed);
 }
 </style>

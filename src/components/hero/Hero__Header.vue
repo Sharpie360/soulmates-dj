@@ -14,7 +14,7 @@ export default {
 .hero--header {
   font-family: 'Aclonica', sans-serif;
   font-weight: normal;
-  font-size: 850%;
+  font-size: 9rem;
 }
 </style>
 

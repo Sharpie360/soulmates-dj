@@ -42,13 +42,13 @@ export default {
   z-index: 10;
   left: 0px;
   top: 0px;
-  color: var(--fontColorHeadings);
+  color: var(--offWhite);
 }
 
 .hero--text-group {
   position: relative;
   text-align: center;
-  top: -15rem;
+  top: -16rem;
 }
 
 </style>

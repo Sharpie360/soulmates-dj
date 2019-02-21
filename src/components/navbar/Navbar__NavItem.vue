@@ -13,15 +13,13 @@ export default {
 <style scoped>
 .navitem--outer {
   width: 7rem;
-  color: var(--fontColorHeadings);
   text-decoration: none;
 }
 .navitem--outer:hover > .navitem--inner {
-  border-bottom: 2px solid var(--fontColorHeadings);
+  border-bottom: 2px solid var(--offWhite);
 }
 
 .navitem--outer.router-link-exact-active {
-  color: var(--fontColorHeadings);
   font-weight: 600;
 }
 .router-link-exact-active > .navitem--inner {
@@ -29,10 +27,12 @@ export default {
 }
 
 .navitem--inner {
-  padding: .5rem .25rem;
-  color: var(--fontColorHeadings);
+  padding: .25rem .75rem;
+  color: var(--offWhite);
   font-weight: 300;
   border-bottom: 2px solid transparent;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
   transition: border .3s;
 }
 
