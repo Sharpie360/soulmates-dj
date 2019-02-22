@@ -93,7 +93,7 @@ export default {
 .main-text--two--outer {
   margin: 0 1rem;
   padding: 1rem;
-  background: linear-gradient(270deg, rgba(232, 25, 40, 0.2) 0%, rgba(255, 247, 247, 0) 100%);
+  background: linear-gradient(270deg, rgba(232, 25, 40, 0.2) 0%, rgba(255, 247, 247, 0) 60%);
   border-radius: 25px 25px 25px 25px;
 }
 .main-text--two--inner {
@@ -102,5 +102,16 @@ export default {
   text-align: right;
 }
 
+.main-text--three--outer {
+  margin: 0 1rem;
+  padding: 1rem;
+  background: linear-gradient(270deg, rgba(232, 25, 40, 0.2) 0%, rgba(255, 247, 247, 0) 80%);
+  border-radius: 25px 25px 25px 25px;
+}
+.main-text--three--inner {
+  font-size: 1.55rem;
+  line-height: 1.5;
+  text-align: right;
+}
 
 </style>
