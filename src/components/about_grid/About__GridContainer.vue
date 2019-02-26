@@ -32,11 +32,14 @@
       </div>
     </grid--item>
 
+    <subgrid gridArea=" 2 / 1 / span 3 / span 2 "></subgrid>    
+
   </div>
 </template>
 
 <script>
 import GridItem from './GridItem';
+import Subgrid from './About__Subgrid';
 
 export default {
   data () {
@@ -46,21 +49,25 @@ export default {
         title: 'About',
       },
       mainText_ONE: {
-        gridArea: '1 / 1 / span 1 / span 2',
-        text: 'SoulmatesDJ is based in Minneapolis, MN - and has been providing great sounds and memories since 2015. With over 15 years of experince djing and hosting events of a wide variety, we know how to cater to the desires of you and your needs. We can handle as much or as little as you want us to. We are also happy to work along side other companies to make your visions a reality.'
+        gridArea: '1 / 1 / span 2 / span 2',
+        text: 'SoulmatesDJ is based in Minneapolis, MN - and has been providing great sounds and memories since 2015. With over 15 years of experince djing and hosting events of a wide variety, we know how to cater to the desires of you and your needs. We can handle as much or as little as you want us to. We are also happy to work along side other companies to make your visions a reality. SoulmatesDJ is based in Minneapolis, MN - and has been providing and memories since 2015.'
       },
       mainText_TWO: {
         gridArea: '2 / 2 / span 1 / span 2',
-        text: 'Michelle Muse, a local veteran of the club and underground scene alike, she is best known for her sense of the utmost funk, and bridging the endless gaps of the genres of dance music. A mastress of her craft, Michelle is the right lady to keep the night vibes fine!'
+        text: 'Michelle Muse, a local veteran of the club and underground scene alike, she is best known for her sense of the utmost funk, and bridging the endless gaps of the genres of dance music. A mastress of her craft, Michelle is the right lady to keep the night vibes fine! A mastress of her craft, Michelle is the right lady to keep the night vibes fine!'
       },
       mainText_THREE: {
-        gridArea: '3 / 3 / span 1 / span 1',
-        text: 'Sean is the second half of the Soulmates duo, joining in the journey when along with his heart, his techincal skills complete Michelle’s personable likeness, making this duo a soulmates match for the ages. '
+        gridArea: '4 / 3 / span 1 / span 1',
+        text: 'Sean Crossphaize is the second half of the Soulmates duo, joining in the journey when along with his heart, his techincal skills complete Michelle’s personable likeness, making this duo a soulmates match for the ages. '
       },
+      subGrid: {
+        gridArea: '3 / 1 / span 2 / span 2'
+      }
     }
   },
   components: {
     'grid--item': GridItem,
+    'subgrid': Subgrid
   }
 }
 </script>
@@ -70,7 +77,7 @@ export default {
   height: 100%;
   display: grid;
   grid-template-columns: 3fr 10rem 1fr;
-  grid-template-rows: 3fr 4fr 4fr;
+  grid-template-rows: 5fr 2rem 5fr 5fr;
 }
 .page-title {
   font-family: 'Aclonica';
@@ -87,7 +94,6 @@ export default {
 }
 .main-text--one--inner {
   font-size: 1.55rem;
-  line-height: 1.5;
 }
 
 .main-text--two--outer {
@@ -97,21 +103,24 @@ export default {
   border-radius: 25px 25px 25px 25px;
 }
 .main-text--two--inner {
-  font-size: 1.55rem;
-  line-height: 1.5;
+  font-size: 1.45rem;
   text-align: right;
 }
 
 .main-text--three--outer {
-  margin: 0 1rem;
+  margin: 0 1rem 1rem 1rem;
   padding: 1rem;
   background: linear-gradient(270deg, rgba(232, 25, 40, 0.2) 0%, rgba(255, 247, 247, 0) 80%);
   border-radius: 25px 25px 25px 25px;
 }
 .main-text--three--inner {
-  font-size: 1.55rem;
-  line-height: 1.5;
+  font-size: 1.45rem;
   text-align: right;
+}
+
+.subgrid {
+  position: relative;
+  z-index: 50;
 }
 
 </style>

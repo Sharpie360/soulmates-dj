@@ -1,7 +1,18 @@
 <template>
-  <router-link class="cta--outer cta--primary flexbox-space-center pointer" tag="button" 
-  :to="to">
-    <span class="cta--inner">{{ text }}</span>
+  <router-link 
+    class="
+      cta--outer 
+      cta--primary 
+      flexbox-space-center 
+      pointer" 
+    tag="button" 
+    to="/">
+
+    <span 
+      class="cta--inner"
+      >{{ text }}
+    </span>
+
   </router-link>
 </template>
 
