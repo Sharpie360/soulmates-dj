@@ -27,8 +27,8 @@ export default {
 <style scoped>
 .cta--group {
   position: relative;
-  top: 42rem;
-  width: 40%;
+  top: 41rem;
+  width: 50%;
   margin: 0 auto;
 }
 </style>

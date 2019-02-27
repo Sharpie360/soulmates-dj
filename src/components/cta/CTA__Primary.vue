@@ -1,7 +1,18 @@
 <template>
-  <router-link class="cta--outer cta--primary flexbox-space-center pointer" tag="button" 
-  :to="to">
-    <span class="cta--inner">{{ text }}</span>
+  <router-link 
+    class="
+      cta--outer 
+      cta--primary 
+      flexbox-space-center 
+      pointer" 
+    tag="button" 
+    to="/">
+
+    <span 
+      class="cta--inner"
+      >{{ text }}
+    </span>
+
   </router-link>
 </template>
 
@@ -15,21 +26,22 @@ export default {
 .cta--outer {
   position: relative;
   z-index: 50;
-  padding: .5rem 2rem;
-  border-radius: 25px;
+  padding: .75rem 4rem;
+  border-radius: 50px;
 }
 .cta--inner {
   text-align: center;
-  font-size: 190%;
+  font-size: 1.8rem;
+  font-family: 'Anaheim';
 }
 .cta--primary {
-  color: var(--fontColorHeadings);
+  color: var(--offWhite);
   background-color: var(--brightRed);
   border: 2px solid var(--offBlack);
   font-weight: 400;
   transition: background-color .3s;
 }
 .cta--primary:hover, .cta--primary:active {
-  background-color: var(--brightRed-dark);
+  background-color: var(--brightestRed);
 }
 </style>

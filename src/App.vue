@@ -1,7 +1,11 @@
 <template>
   <div id="app">
-    <app--navbar :currentRoute="currentRoute"></app--navbar>
+    <app--navbar 
+      :currentRoute="currentRoute">
+    </app--navbar>
+
     <router-view />
+
   </div>
 </template>
 
@@ -30,5 +34,6 @@ export default {
 
   height: 100%;
 }
+
 
 </style>

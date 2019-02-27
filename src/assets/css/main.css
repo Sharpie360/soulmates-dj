@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Aclonica|Open+Sans:300,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Aclonica|Anaheim:300,400,500,600');
 
 
 :root {
   --offBlack: #2F2A2A;
-  --backgroundWhite: #FFF7F7;
-  --fontColorHeadings: #f7f7f7;
+  --offWhite: #FFF7F7;
+  --hoverRed: #ff3b48;
   --brightRed: #E81928;
+  --brightestRed: #ff0011;
   --brightRed-dark: #cc0815;
+  
+  --fontSize: 26px;
 }
 
 
@@ -18,10 +21,18 @@
 
 html, body {
   font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Anaheim', sans-serif;
   height: 100vh;
   color: var(--offBlack);
-  background-color: var(--backgroundMain);
+  background-color: var(--offWhite);
+}
+
+body {
+  font-size: var(--fontSize);
+}
+
+p {
+  line-height: 1.5;
 }
 
 .pointer {
