@@ -32,7 +32,12 @@
       </div>
     </grid--item>
 
-    <subgrid gridArea=" 2 / 1 / span 3 / span 2 "></subgrid>    
+    <subgrid gridArea=" 2 / 1 / span 3 / span 2 "></subgrid>
+
+    <img
+      style="grid-area: 1 / 3" 
+      class="headphone-trace"
+      src="../../assets/svg/headphones_trace_light-red.svg" alt="">
 
   </div>
 </template>
@@ -80,6 +85,8 @@ export default {
   grid-template-rows: 5fr 2rem 5fr 5fr;
 }
 .page-title {
+  position: relative;
+  z-index: 50;
   font-family: 'Aclonica';
   font-size: 500%;
   font-weight: 400;
@@ -121,6 +128,13 @@ export default {
 .subgrid {
   position: relative;
   z-index: 50;
+}
+
+.headphone-trace {
+  position: absolute;
+  z-index: 0;
+  top: 3rem;
+  right: 3rem;
 }
 
 </style>
