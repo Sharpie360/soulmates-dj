@@ -41,9 +41,4 @@ export default {
   left: 0;
 }
 
-.wwd--grid {
-  display: grid;
-  grid-template-columns: repeat(1fr, 4);
-  grid-template-rows: repeat(1fr, 3);
-}
 </style>

@@ -1,4 +1,4 @@
-# soulemates-dj
+# soulmatesDJ
 
 ## Project setup
 ```
@@ -15,15 +15,5 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
+Wedding DJ Web app/site built using Vue.js.
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
