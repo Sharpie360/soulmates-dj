@@ -6,8 +6,11 @@
 </template>
 
 <script>
+import GridItem from '@/components/about_grid/GridItem';
 export default {
-
+  components: {
+    
+  }
 }
 </script>
 
